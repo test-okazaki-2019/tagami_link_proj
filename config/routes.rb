@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # FIXME: 仮のログイン後のTOPページ
   root to: 'users#index'
 
