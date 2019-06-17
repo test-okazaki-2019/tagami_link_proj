@@ -1,1 +1,15 @@
-h1 リンクシステムTOPページ
+header.masthead.mb-auto
+  .inner
+    h3.masthead-brand リンクシステム(開発中)
+    nav.nav.nav-masthead.justify-content-center
+      a.nav-link.active href="#"  TOP
+      = link_to 'ログイン', new_user_session_path, class: 'nav-link'
+main.inner.cover role="main"
+  h1.cover-heading リンクをまとめます
+  p.lead ここにテキストが入ります ここにテキストが入ります ここにテキストが入ります ここにテキストが入ります ここにテキストが入ります ここにテキストが入ります
+  p.lead
+    = link_to '新規登録はこちらから', new_user_registration_path, class: 'btn btn-lg btn-primary'
+footer.mastfoot.mt-auto
+  .inner
+    p
+      = 'リンクシステム(開発中)'
