@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  # FIXME: 仮のログイン後のTOPページ
-  root to: 'users#index'
+  root to: 'public#top'
 
   get 'users/show'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
